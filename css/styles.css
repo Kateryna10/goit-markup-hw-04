@@ -667,7 +667,7 @@ padding: 30px 32px;
     color: var(--second-title-color);
 }
 
-.contact-wrap{
+.contact-wrap .container{
     display: flex;
 }
 
@@ -690,7 +690,13 @@ padding: 30px 32px;
 }
 
 .foot-li{
-    width: 44px;
+    
+
+
+}
+
+.foot-link{
+width: 44px;
     height: 44px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
@@ -702,16 +708,18 @@ padding: 30px 32px;
 
 }
 
-.foot-link{
-
-}
-
 .footer-icon{
+    fill: currentColor;
+    
 
 }
 
 .contact-list-footer{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 70px;
 }
 
 
