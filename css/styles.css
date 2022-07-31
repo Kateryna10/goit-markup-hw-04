@@ -569,7 +569,7 @@ padding: 30px 32px;
     
 .client-title{
     margin-top: 0;
-        margin-bottom: 0;
+        margin-bottom: 50px;
     
         font-weight: 700;
         font-size: 36px;
@@ -604,6 +604,11 @@ padding: 30px 32px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
 
+}
+
+.client-link:hover{
+    border-color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .client-icon{
