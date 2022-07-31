@@ -330,7 +330,9 @@ body{
     margin-bottom: 30px;
 }
 
+
 .icon-q::before {
+    background-image: url("../images/icon.svg#icon-antenna");
 
 }
 
