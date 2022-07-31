@@ -496,7 +496,7 @@ padding: 30px 32px;
     height: 44px;
     border-radius: 50%;
      
-    background-color: tomato;
+    /* background-color: tomato; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -504,19 +504,17 @@ padding: 30px 32px;
 }
 
 .team-soc-link:hover{
-    background-color: lawngreen;
+    background-color: var(--second-title-color);
 }
 
-.team-soc-link:hover .our-team-soc{
-    fill: orchid;
+.team-soc-link:hover .team-soc{
+    fill: var(--fourth-color);
     display: flex;
 
 }
    
 .team-soc{
-    fill: #FFFFFF;
-   
-    
+    fill: #AFB1B8; 
 }
 
     
