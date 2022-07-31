@@ -147,7 +147,10 @@ body{
         color: var(--first-title-color); 
 }
 
-.header-item
+.header-item{
+    padding-top: 32px;
+        padding-bottom: 32px;
+}
 
 .header-link:hover,
 .header-link:focus{
@@ -167,17 +170,22 @@ body{
 }
 
 .number-li{
+    padding-top: 32px;
+    padding-bottom: 32px;
    
     margin-right: 50px;
 }
 
 .mail-li{
-    
+    padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .number{
-    padding-top: 32px;
-    padding-bottom: 32px;
+   margin-left: auto;
+   
+   align-items: center;
+   display: flex;
     
 
     font-weight: 500;
@@ -193,8 +201,10 @@ body{
     }
     
 .mail{
-    padding-top: 32px;
-    padding-bottom: 32px;
+    margin-left: auto;
+    
+        align-items: center;
+        display: flex;
     
 
     font-weight: 500;
@@ -207,6 +217,12 @@ body{
 .mail:hover,
 .mail:focus{
     color: var(--second-title-color);
+}
+
+.header-icon{
+margin-right: 10px;
+stroke: currentColor;
+fill: var(--third-title-color);
 }
 
 /* Hero */
@@ -319,12 +335,12 @@ body{
     margin: -1px;
 }
 
-.quality-list-icon{
+/* .quality-list-icon{
 display: flex;
 gap: 30px;
 margin-bottom: 30px;
 list-style: none;
-}
+} */
 
 /* .quality-icon{
     height: 120px;
@@ -548,7 +564,29 @@ padding: 30px 32px;
     fill: #AFB1B8; 
 }
 
+/* Client */
     
+.client-title{
+        margin-top: 0;
+        margin-bottom: 0;
+    
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+
+
+.client-list{
+
+}
+
+.client-item{
+
+}
+
 
 
 /* Footer */
