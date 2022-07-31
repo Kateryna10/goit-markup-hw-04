@@ -588,6 +588,10 @@ padding: 30px 32px;
 }
 
 .client-item{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
 
 }
 
