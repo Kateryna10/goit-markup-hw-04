@@ -708,9 +708,13 @@ width: 44px;
 
 }
 
+.foot-link:hover{
+    background-color: var(--accent-color);
+}
+
 .footer-icon{
     fill: currentColor;
-    
+
 
 }
 
