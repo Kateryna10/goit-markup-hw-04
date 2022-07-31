@@ -561,7 +561,7 @@ padding: 30px 32px;
 }
    
 .team-soc{
-    fill: #AFB1B8; 
+    
 }
 
 /* Client */
@@ -591,7 +591,8 @@ padding: 30px 32px;
         height: 100%;
         width: 100%;
         align-items: center;
-            justify-content: center;
+        justify-content: center;
+        fill: #AFB1B8;
 
 }
 
@@ -600,6 +601,10 @@ padding: 30px 32px;
     height: 92px;
     
 
+}
+.client-icon{
+    stroke: currentColor;
+    fill: var(--third-title-color);
 }
 
 
