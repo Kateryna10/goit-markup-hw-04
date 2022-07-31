@@ -582,10 +582,13 @@ padding: 30px 32px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 30px;
 
 }
 
 .client-item{
+    width: 170px;
+    height: 92px;
 
 }
 
@@ -593,9 +596,10 @@ padding: 30px 32px;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    width: 100%;
 
-    width: 170px;
-    height: 92px;
+   
     color: #afb1b8;
     border: 1px solid #afb1b8;
     border-radius: 4px;
@@ -603,6 +607,7 @@ padding: 30px 32px;
 }
 
 .client-icon{
+    fill: currentColor;
 
 }
 
