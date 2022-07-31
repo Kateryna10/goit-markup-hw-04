@@ -582,6 +582,8 @@ padding: 30px 32px;
 .client-list{
     display: flex;
     gap: 30px;
+    align-items: center;
+    justify-content: center;
 
 }
 
