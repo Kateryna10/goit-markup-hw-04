@@ -680,6 +680,7 @@ padding: 30px 32px;
     text-transform: uppercase;
 
     color: var(--fourth-color);
+    margin-bottom: 20px;
 }
 
 .footer-contact-list{
