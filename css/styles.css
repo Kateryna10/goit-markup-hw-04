@@ -667,6 +667,38 @@ padding: 30px 32px;
     color: var(--second-title-color);
 }
 
+.footer-new{
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--fourth-color);
+}
+
+.footer-contact-list{
+    display: flex;
+
+}
+
+.foot-li{
+
+}
+
+.foot-link{
+
+}
+
+.footer-icon{
+
+}
+
+.contact-list-footer{
+    display: flex;
+}
+
 
 
 
