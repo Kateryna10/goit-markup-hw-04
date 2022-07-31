@@ -667,6 +667,10 @@ padding: 30px 32px;
     color: var(--second-title-color);
 }
 
+.contact-wrap{
+    display: flex;
+}
+
 .footer-new{
 
     font-weight: 700;
