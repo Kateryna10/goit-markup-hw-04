@@ -586,7 +586,7 @@ padding: 30px 32px;
 }
 
 .client-link{
-    border: 1px solid #AFB1B8;
+        border: 1px solid #AFB1B8;
         border-radius: 4px;
         height: 100%;
         width: 100%;
@@ -605,6 +605,11 @@ padding: 30px 32px;
 .client-icon{
     stroke: currentColor;
     fill: var(--third-title-color);
+}
+
+.client-link:hover{
+    border-color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 
