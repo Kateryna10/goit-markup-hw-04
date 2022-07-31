@@ -589,6 +589,13 @@ padding: 30px 32px;
 }
 
 .client-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.client-icon{
 
 }
 
