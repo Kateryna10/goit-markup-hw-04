@@ -319,22 +319,51 @@ body{
     margin: -1px;
 }
 
-.quality-box::before{
+.quality-list-icon{
+display: flex;
+gap: 30px;
+margin-bottom: 30px;
+list-style: none;
+}
+
+/* .quality-icon{
+    height: 120px;
+    width: 270px;
     content: "";
     display: block;
-    height: 120px;
+    
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--team-color);
     margin-bottom: 30px;
+} */
+
+.icon-qua{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+
+   
+   
+    margin-bottom: 30px;
+    background-color: var(--team-color);
+    width: 270px;
+    height: 120px;
+
+
 }
 
 
-.icon-q::before {
-    background-image: url("../images/icon.svg#icon-antenna");
+
+.icon{
+  width: 70px;
+  height: 70px;
+  
 
 }
+
 
 .icon-qu::before {
 
