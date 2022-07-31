@@ -567,52 +567,30 @@ padding: 30px 32px;
 /* Client */
     
 .client-title{
-        margin-top: 0;
-        margin-bottom: 50px;
+    margin-top: 0;
+        margin-bottom: 0;
     
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
-    }
-
-
+}
 
 .client-list{
     display: flex;
-    gap: 30px;
-   
-}
-
-.client-link{
-        border: 1px solid #AFB1B8;
-        border-radius: 4px;
-        height: 92px;
-        width: 170px;
-        align-items: center;
-        justify-content: center;
-        color: #AFB1B8;
-        display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .client-item{
-   
-    
 
 }
-.client-icon{
-    stroke: currentColor;
-    fill: var(--third-title-color);
+
+.client-link{
+
 }
-
-.client-link:hover{
-    border-color: var(--accent-color);
-    color: var(--accent-color);
-}
-
-
 
 /* Footer */
 
