@@ -582,16 +582,23 @@ padding: 30px 32px;
 .client-list{
     display: flex;
     gap: 30px;
-    align-items: center;
-    justify-content: center;
+   
+}
+
+.client-link{
+    border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+            justify-content: center;
 
 }
 
 .client-item{
     width: 170px;
     height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
+    
 
 }
 
